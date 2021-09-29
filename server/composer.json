@@ -1,0 +1,19 @@
+{
+    "name": "swchen1217/bus",
+    "authors": [
+        {
+            "name": "Sz-Wei Chen",
+            "email": "swchen1217@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "cboden/ratchet": "^0.4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    "description": ""
+}

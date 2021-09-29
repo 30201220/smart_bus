@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>預約公車</title>
+    <!-- Bulma -->
+    <link href="css/bulma.min.css" rel="stylesheet">
+    <!-- Google Font APIs -->
+    <link href="css/NotoSansTC.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- jQuery Cookie -->
+    <script src="js/jquery.cookie.js"></script>
+    <!-- MD5 -->
+    <script src="js/md5.js"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- My js -->
+    <script src="js/index.js"></script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+            智慧公車上車預約(v2)
+        </h1>
+        <p class="subtitle">
+            預計到達車輛
+        </p>
+        <div id="busList">
+
+        </div>
+    </div>
+</section>
+</body>
+<script>
+  $(document).ready(function () {
+    init();
+  });
+</script>
+</html>
